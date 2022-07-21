@@ -35,7 +35,8 @@
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.1",
     "tailwindcss": "^2.1.1",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "sass": "^1.51.0"
   },
   "scripts": {
     "start": "craco start",
@@ -57,8 +58,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "sass": "^1.51.0"
   }
 }
