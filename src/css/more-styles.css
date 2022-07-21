@@ -1,0 +1,559 @@
+.dashboard__section {
+  background-color: #efefef;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.dashboard__container {
+  margin: 7rem auto 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dashboard__cunt-2 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dashboard__stats__container {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.dashboard__stats {
+  background-color: white;
+  height: 95%;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  border-radius: 10px;
+}
+
+.dashboard__stats .piechart {
+  width: 45%;
+  height: 45%;
+  margin: 5px;
+}
+
+.jobsApply__section {
+  background-color: #efefef;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jobsApply__section-heading {
+  text-transform: uppercase;
+  margin: 6rem auto 4rem auto;
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+}
+
+.jobsApply__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.AddJob__section {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 5rem;
+}
+
+.AddJob__section-heading {
+  text-transform: uppercase;
+  margin: 0rem auto;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.AddJob__section-para {
+  color: slategrey;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.AddJob__section-para sup {
+  color: red;
+  font-size: 1rem;
+}
+
+.AddJob__container {
+  background: rgba(255, 255, 255, 0.25);
+  margin: 3rem auto;
+}
+
+.AddJob__form {
+  margin: 0rem auto;
+}
+
+.AddJob__form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 100%;
+}
+
+.AddJob__form > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.AddJob__form > div > div label {
+  font-size: 1.2rem;
+  color: #404040;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+.AddJob__form > div > div label sup {
+  color: red;
+}
+
+.AddJob__form > div input,
+.AddJob__form > div textarea {
+  background-color: #eeeeee;
+  width: 25rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  border: none;
+  outline: none !important;
+  padding: 0.6rem;
+  border-bottom: 2px solid #848484;
+}
+
+.AddJob__form-text {
+  width: 100%;
+}
+
+.AddJob__form-text textarea {
+  min-width: 100%;
+  outline: none !important;
+  word-wrap: wrap;
+  min-height: 10rem !important;
+}
+
+.AddJob__form-file input {
+  border: none !important;
+  margin: 0.5rem;
+}
+
+.AddJob__form-checkbox {
+  width: 20rem;
+}
+
+.AddJob__form-checkbox label {
+  margin: 0.3rem 0;
+}
+
+.AddJob__form-checkbox label sup {
+  color: red;
+}
+
+.AddJob__form-checkbox input {
+  margin: 0.3rem 1rem !important;
+  border: 1px solid slategrey !important;
+  height: 2rem !important;
+  width: 2rem !important;
+}
+
+.AddJob__submit {
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #0371ee;
+  margin: 2rem 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  height: 3rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1198px) {
+  .dashboard__cunt-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .dashboard__cunt-2 {
+    width: 95%;
+    margin: auto;
+  }
+  .dashboard__stats__container {
+    -ms-flex-item-align: unset;
+        -ms-grid-row-align: unset;
+        align-self: unset;
+  }
+  .dashboard__stats {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dashboard__stats .piechart {
+    width: 90%;
+    margin: 5px auto;
+  }
+}
+
+.tpo__calendar__container {
+  height: 600px;
+}
+
+.tpo__calendar {
+  width: 100%;
+  height: 100%;
+}
+
+.allStudents__section {
+  width: 100%;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.allStudents__section-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+}
+
+.query__section {
+  width: 80vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.query__section-heading h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  color: black;
+}
+
+.query__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+}
+
+.query__card {
+  width: 90%;
+  min-width: 80%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  box-shadow: 0px 0px 30px -12px rgba(176, 167, 167, 0.72);
+  -webkit-box-shadow: 0px 0px 30px -12px rgba(176, 167, 167, 0.72);
+  -moz-box-shadow: 0px 0px 30px -12px rgba(176, 167, 167, 0.72);
+  background-color: #ececec;
+  padding: 1rem;
+  margin: 0.8rem;
+  border-radius: 4px;
+}
+
+.query__card h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.2rem;
+}
+
+.query__card h5 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.2rem;
+}
+
+.query__card-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.query__card-details textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.query_submit {
+  padding: 0.2rem 0.7rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768) {
+  .query__section {
+    width: 100% !important;
+  }
+}
+
+.form__ui {
+  margin: 1rem;
+}
+
+.form__ui textarea {
+  width: 100%;
+}
+
+.form__ui-send {
+  margin-bottom: 0.2rem;
+}
+
+.form__ui .formSend {
+  background-color: #1a5f99;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form__dashboard {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.form__dashboard > div {
+  width: 100%;
+}
+
+.tpo__announcement__container {
+  height: 30rem;
+  overflow: hidden;
+}
+
+.tpo__announcement__card__container {
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.form__mail {
+  -webkit-box-shadow: 0px -14px 14px -16px rgba(102, 102, 102, 0.63);
+          box-shadow: 0px -14px 14px -16px rgba(102, 102, 102, 0.63);
+  overflow-y: scroll;
+  height: 28%;
+}
+
+.jobApproval__section {
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jobApproval__section-heading h3 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  color: black;
+}
+
+.stuquery__section {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.stuquery__section-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  -webkit-transform: scale(1.2, 1);
+          transform: scale(1.2, 1);
+}
+
+.stuquery__section-heading h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  color: black;
+}
+
+.stuquery__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70vw;
+}
+
+.stuquery__form textarea {
+  height: 20rem;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.stuquery__form input {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #0371ee;
+  width: 10rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 0.6rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.FilledForm__buttons {
+  width: 50%;
+}
+
+.FilledForm__buttons button {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #ff0a0a;
+  height: 3rem;
+  width: 30rem !important;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=more-styles.css.map */
