@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "node --max_old_space_size=960 start",
-    "build": "node --max_old_space_size=960 build && echo '/* /index.html 200' > build/_redirects",
+    "build": "craco --max_old_space_size=960 build && echo '/* /index.html 200' > build/_redirects",
     "test": "craco test",
     "eject": "craco eject"
   },
