@@ -22,7 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "luxon": "^1.27.0",
     "moment": "^2.29.1",
-    "postcss": "^8.2.9",
+    "postcss": "^8.0.0",
     "postcss-preset-env": "^7.7.2",
     "react": "^17.0.2",
     "react-chartjs-2": "^4.1.0",
