@@ -36,7 +36,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "node --max_old_space_size=960 src/index.js",
+    "start": "craco --max_old_space_size=960 start",
     "build": "craco --max_old_space_size=960 build && echo '/* /index.html 200' > build/_redirects",
     "test": "craco test",
     "eject": "craco eject"
