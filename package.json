@@ -2,6 +2,7 @@
   "name": "simple-light-react",
   "version": "0.1.0",
   "private": true,
+  "type" : "module",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
