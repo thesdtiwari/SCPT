@@ -2,7 +2,6 @@
   "name": "simple-light-react",
   "version": "0.1.0",
   "private": true,
-  "type" : "module",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -37,8 +36,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "craco --max_old_space_size=960 start",
-    "build": "craco --max_old_space_size=960 build && echo '/* /index.html 200' > build/_redirects",
+    "start": "craco start",
+    "build": "react-scripts build && echo '/* /index.html 200' > build/_redirects",
     "test": "craco test",
     "eject": "craco eject"
   },
