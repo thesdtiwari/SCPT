@@ -60,7 +60,7 @@ class Queries extends Component {
 
   async handleSubmit(event) {
     event.preventDefault();
-    const status = await askQuery(this.state.value, this.handleChange);
+    // const status = await askQuery(this.state.value, this.handleChange);
     document.getElementById("textarea_query").value = "";
     
     fetch(`${BASE_URL}/all-query`, {
