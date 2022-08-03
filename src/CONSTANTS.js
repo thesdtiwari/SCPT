@@ -1,1 +1,1 @@
-export const BASE_URL = "https://scpt-server.herokuapp.com/"
+export const BASE_URL = "https://scpt-server.herokuapp.com"
