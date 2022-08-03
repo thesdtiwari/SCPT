@@ -98,7 +98,7 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">IIIT Lucknow</h6>
+            <h6 className="text-gray-800 font-medium mb-2">IIT(ISM) Dhanbad</h6>
             <ul className="text-sm ">
               {/* flex justify-between flex-wrap */}
               <li className="mb-2">

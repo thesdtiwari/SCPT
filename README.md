@@ -9,7 +9,6 @@ If not already installed, install `NodeJs` from [here](https://nodejs.org/en/dow
 Launch Terminal (Linux/Mac OS) or PowerShell (Windows) and paste the following code.
 
 ```
-git clone https://github.com/iiitl-placement-portal/student-portal.git
 ```
 
 <br>
